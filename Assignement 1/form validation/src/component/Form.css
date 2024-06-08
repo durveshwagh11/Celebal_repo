@@ -1,0 +1,56 @@
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-header {
+    border-bottom: 1px solid #e9ecef;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .form-header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .form-header p {
+    color: #6c757d;
+    margin-bottom: 0;
+  }
+  
+  input[type="text"], input[type="email"], input[type="password"], select {
+    background-color: #f9f9f9;
+    border: 1px solid #ced4da;
+  }
+  
+  input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, select:focus {
+    background-color: #ffffff;
+    border-color: #80bdff;
+  }
+  
+  input-group .form-control:focus {
+    z-index: 2;
+  }
+  
+  .input-group-append .btn {
+    border: 1px solid #ced4da;
+  }
+  
+  .btn-block {
+    background-color: #4e73df;
+    border-color: #4e73df;
+  }
+  
+  .btn-block:hover {
+    background-color: #3751a6;
+    border-color: #3751a6;
+  }
+  
+  .text-danger {
+    font-size: 0.875em;
+  }
+  
